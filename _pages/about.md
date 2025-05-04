@@ -36,7 +36,7 @@ redirect_from:
 ## 2.机动车能耗、排放机器学习建模  
 机动车能耗、排放模型是评估和管理交通污染的核心工具。运用模型对机动车排放和能耗的定量表征不但具有科学意义，更具有决策意义。然而，现有模型的建模方法论主要成型于二十年前，主流模型的建模思路均是通过少量的“代用参数”（速度、比功率等）对机动车排放和能耗进行表征。随着机器学习、人工智能技术的发展，数据驱动的模型开始在排放建模中展现出强大的潜力。此类模型不再局限于传统物理意义明确的单一参数，而是能够从高维、多源的运行与环境变量中自动学习出复杂的非线性映射关系，实现对排放行为更精细的刻画。这种方法在提升模型拟合精度的同时，也增强了模型在不同使用场景下的泛化能力。在这样的背景下，完成了以下工作：
 ### （1）机动车能耗建模  
-数据来源为实测数据：
+数据是实测数据：
 | 车型 | 大众探歌 2019 | 大众迈腾 280 | 大众 ID.4 X 2022 | 大众 ID.4 Cross 2022 | 大众帕萨特 PHEV 2020 | 大众迈腾2022 |
 |------|------------------------|--------------------------|--------------------------|-----------------------------|------------------------------|------------------------------|
 | **燃料类型** | 汽油 | 汽油 | 电力 | 电力 | 混合动力 | 混合动力 |
@@ -62,8 +62,48 @@ $$
 $$
 J = \frac{da}{dt} = \frac{d^2v}{dt^2}
 $$  
-目标值的计算公式：
+
+目标值的计算公式：  
+
+$$E_{BEV} = C_f U_{bi} I_{bi} (t_{i+1} - t_i)^{\zeta_i}$$
+
+$$E_{ICEV} = \frac{F_{Ci}}{F_E}$$
+
+$$E_{PHEV} = \frac{F_{Ci}}{F_E} + C_f U_{bi} I_{bi} (t_{i+1} - t_i)^{\zeta_i}$$  
+
+建模方法为GridsearchCV，即为网格搜索，使用XGBOOST完成建模。
+
 ### （2）重型车辆NOx排放建模  
+数据是从OBM数据平台中下载的数据。  
+输入特征和目标值：  
+![image](https://github.com/user-attachments/assets/ca117639-ae0b-4164-835a-d049a8e4569f)
+
+其中， $v$ 为速度， $v_{t-1}$ 为前一秒的车辆速度， $v_{t+1}$ 为后一秒的车辆速度（下同）。 $T_{out}$ 为发动机净输出扭矩，$T_{f}$ 为发动机摩擦扭矩，RPM为发动机转速， $F_{fuel}$ 为车辆燃油消耗率， MAF为进气量， $T_{SCR-in}$ 为SCR装置的入口温度， $T_{SCR-out}$ 为SCR装置的出口温度。
+
+分为两种模型，第一种是没有经过SCR装置的NOx排放模型；第二种是经过SCR装置的NOx排放模型。
+目标值的计算公式：
+
+$$
+NO_{\text{mass},x,\text{up},t} = \frac{0.001 \times 46}{3600 \times 22.4} \times \frac{1}{\rho_e} \times NO_{x,\text{up-stream},t} \times \left( F_{\text{fuel},t} \times \rho_{\text{fuel}} + \text{MAF}_t \right)
+$$
+
+
+
+$$
+NO_{\text{mass},x,\text{down},t} = \frac{0.001 \times 46}{3600 \times 22.4} \times \frac{1}{\rho_e} \times NO_{x,\text{down-stream},t} \times \left( F_{\text{fuel},t} \times \rho_{\text{fuel}} + \text{MAF}_t \right)
+$$
+
+
+
+
+建模流程采用了贝叶斯优化，流程图如下：
+
+![mermaid-diagram-2025-05-05-001757](https://github.com/user-attachments/assets/d598c604-8678-43fa-9d25-3c684affb2cb)
+
+📎 GitHub源码仓库：[Starbutterflies/zeping_only](https://github.com/Starbutterflies/zeping_only/blob/master/bst_bayes.py)
+
+
+
 ## 3.重型货车OBD数据分析  
 ### （1）重型货车NOx排放分析框架  
 ### （2）重型货车NOx数据填补
