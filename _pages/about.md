@@ -31,7 +31,9 @@ redirect_from:
 
 ![图片2](https://github.com/user-attachments/assets/1653035a-b130-4a34-89b6-25d630fd5d8f)
 
+📎 GitHub源码仓库：[Starbutterflies/Discretization-Markov-Driving-Cycle](https://github.com/Starbutterflies/Discretization-Markov-Driving-Cycle/tree/master)
 
-2.机动车能耗、排放建模  
+## 2.机动车能耗、排放建模  
 
+### （1）机动车能耗建模
 3.重型货车OBD数据分析  
