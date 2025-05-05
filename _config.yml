@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "zh-CN"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "曹泽平/个人学术网站"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "曹泽平"
 description              : &description "personal description"
 url                      : https://starbutterflies.github.io/zeping.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
