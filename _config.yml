@@ -34,12 +34,12 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com.hk/citations?view_op=list_works&hl=zh-CN&user=nUtOcMsAAAAJ&gmla=AIfU4H6sOUyrUf-kGu1_HA0UDbgPmo6jKONP2EnQiCoauHm9nTAYogoyGC5_g2xQp_JD2NpDMs_wlghER6JGfT0lCn64HNnkTGdGaK1tvwpq7tMZVgOlgfUELZQ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : ""
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  pubmed           : ""
+  researchgate     : "https://www.researchgate.net/profile/Zeping-Cao/research?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjoicHJvZmlsZVZlcmlmaWNhdGlvbiJ9fQ"
   scopus           : # URL
 
   # Repositories and software development
