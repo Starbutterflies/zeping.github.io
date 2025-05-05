@@ -22,7 +22,7 @@ repository               : "Starbutterflies/zeping.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "zepingcao.png"
   name             : "曹泽平"
   pronouns         : # example: "she/her"  
   bio              : "硕士研究生，环境工程，南开大学"
