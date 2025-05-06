@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: 'This article presents a data-driven method for imputing missing OBD data, aiming to reconstruct the real-world emission profiles of HDDVs.'
 venue: 'Journal of Hazard Materials'
+date: 2025-04-26
 paperurl: 'https://github.com/Starbutterflies/zeping.github.io/edit/master/files/Reconstructing%20Missing%20NOx%20Emissions%20in%201.pdf'
 ---
 
