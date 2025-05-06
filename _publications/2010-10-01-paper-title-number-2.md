@@ -7,6 +7,6 @@ excerpt: 'This study proposes a cross-regional vehicle energy consumption assess
 date: 2025-04-26
 venue: 'Journal 1'
 slidesurl: ''
-paperurl: ''
+paperurl: 'https://github.com/Starbutterflies/zeping.github.io/raw/refs/heads/master/files/A%20transferable%20vehicle%20energy%20consumption.pdf'
 ---
 Vehicle electrification is an important approach for energy saving and emission reduction. However, the advantages of electric vehicles in terms of energy consumption are difficult to quantify accurately. Based on the 3-D markov chain and machine learning methods, this study proposes a framework to evaluate energy consumption benefits and validates it with two typical cities, Tianjin and Xining. The results show that electric vehicles can achieve energy consumption benefits from 16.4 % to 77.8 %. While electric vehicles have significant energy consumption benefits, there are regional differences. Compared to internal combustion engine vehicles, battery electric vehicles showing greater benefits in Tianjin and plug-in hybrid electric vehicles in Xining. The model interpretation indicates that the difference stems from Tianjin's more frequent and intense deceleration and Xining's more varied terrain. A standardized energy consumption evaluation framework that integrates regional and vehicle type differences is essential to the electric vehicles promotion.
