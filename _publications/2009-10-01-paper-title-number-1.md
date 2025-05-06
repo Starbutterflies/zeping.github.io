@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'The study utilizes OBD data from OBM big data platform and develops a comprehensive data analysis framework that integrates data preprocessing, high-emission vehicle identification, and factor analysis using both binning and machine learning approaches.'
 date: 2025-02-17
-venue: 'Journal 1'
+venue: 'Environmental Pollution'
 paperurl: 'https://github.com/Starbutterflies/zeping.github.io/blob/master/files/A%20comprehensive%20OBD%20data%20analysis%20framework%20Identification%20and%20factor%20.pdf'
 citation: 'Cao Z, Shi K, Qin H, et al. A Comprehensive OBD Data Analysis Framework: Identification and Factor Analysis of High-Emission Heavy-Duty Vehicles[J]. Environmental Pollution, 2025: 125751.'
 ---
