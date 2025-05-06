@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 2"
+title: "A transferable vehicle energy consumption evaluation framework for quantifying vehicle electrification energy benefits"
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
+excerpt: 'This study proposes a cross-regional vehicle energy consumption assessment framework. Real-world driving data are first used, in combination with Markov chains, to construct a regional driving cycle database. This database is then coupled with machine learning models to estimate energy consumption across different regions.'
+date: 2025-04-26
 venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+slidesurl: ''
+paperurl: ''
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Vehicle electrification is an important approach for energy saving and emission reduction. However, the advantages of electric vehicles in terms of energy consumption are difficult to quantify accurately. Based on the 3-D markov chain and machine learning methods, this study proposes a framework to evaluate energy consumption benefits and validates it with two typical cities, Tianjin and Xining. The results show that electric vehicles can achieve energy consumption benefits from 16.4 % to 77.8 %. While electric vehicles have significant energy consumption benefits, there are regional differences. Compared to internal combustion engine vehicles, battery electric vehicles showing greater benefits in Tianjin and plug-in hybrid electric vehicles in Xining. The model interpretation indicates that the difference stems from Tianjin's more frequent and intense deceleration and Xining's more varied terrain. A standardized energy consumption evaluation framework that integrates regional and vehicle type differences is essential to the electric vehicles promotion.
