@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'This study proposes a cross-regional vehicle energy consumption assessment framework. Real-world driving data are first used, in combination with Markov chains, to construct a regional driving cycle database. This database is then coupled with machine learning models to estimate energy consumption across different regions.'
 date: 2025-04-26
-venue: 'Journal 1'
+venue: 'NPJ Sustainable Mobility and Transport'
 slidesurl: ''
 paperurl: 'https://github.com/Starbutterflies/zeping.github.io/raw/refs/heads/master/files/A%20transferable%20vehicle%20energy%20consumption.pdf'
 ---
