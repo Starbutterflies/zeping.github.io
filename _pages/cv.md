@@ -21,11 +21,13 @@ redirect_from:
   * 灵感来源：表格数据图形转换，卫星数据机器学习填补
   * 创新点：建立一套全流程的数据处理框架，使用可用数据重建真实事件的NOx排放，调查OBD数据的机器学习可用性
   * 对应出版物：A Comprehensive OBD Data Analysis Framework: Identification and Factor Analysis of High-Emission Heavy-Duty Vehicles, Reconstructing Missing NOx Emissions in Heavy-Duty Diesel Vehicle OBD Data：A Machine learning approach
+  * 对应期刊：Environmental Pollution, journal of Hazard Materials
   * 导师：毛洪钧
 
 * 驾驶循环构建
-  * 创新点：建立一套跨地区的机动车能耗消耗框架
+  * 创新点：建立了一套跨地区的机动车能耗消耗框架
   * 对应出版物：A transferable vehicle energy consumption evaluation framework for quantifying vehicle electrification energy benefits
+  * 对应期刊：NPJ Sustainable Mobility and Transport
   * 导师：毛洪钧
   
 技能
