@@ -32,28 +32,23 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git
   
-Skills
+技能
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 英语 六级
+* 编程 python计算机二级
+  * pandas、numpy、matplotlib等数据处理库。
+  * sklearn,pytorch等机器学习、深度学习库。
+  * request、tkinter等其他python库。
+* 机器学习算法：XGBOOST、Randomforest、Lightgbm，深度学习算法（较为擅长CNN）：ResNet，VGG，GoogleNet等
 
 出版物
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
   
-Teaching
+荣誉奖项
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 2024,“挑战杯”国赛铜奖
+* 2024,“挑战杯”市赛金奖
+* 2021,“互联网+”校级银奖
