@@ -15,22 +15,17 @@ redirect_from:
 * 2019.09-2023.07, 四川大学建筑与环境学院 学士
 
 
-Work experience
+研究领域及成果
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
+* OBD数据远程监控
+  * 
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
 
-* Fall 2015: Research Assistant
+* 驾驶循环构建
   * GitHub University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 技能
 ======
