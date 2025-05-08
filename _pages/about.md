@@ -10,4 +10,5 @@ redirect_from:
 <br/>
 目前，我于 <a href="https://env.nankai.edu.cn">南开大学环境科学与工程学院</a> 攻读硕士学位，自2023年秋季起师从 <a href="https://env.nankai.edu.cn/2019/0612/c14180a177249/page.htm">毛洪钧</a> 教授。
 <br/>
-本科毕业于 <a href="https://acem.scu.edu.cn/">四川大学建筑与环境学院</a>
+<br/>
+本科毕业于 <a href="https://acem.scu.edu.cn/">四川大学建筑与环境学院</a>。
