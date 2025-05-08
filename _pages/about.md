@@ -13,3 +13,4 @@ redirect_from:
 <br/>
 本科毕业于 <a href="https://acem.scu.edu.cn/">四川大学建筑与环境学院</a>。本科期间，参加了“互联网+”竞赛，获得校级奖项。
 
+# 板块介绍
