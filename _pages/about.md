@@ -8,6 +8,6 @@ redirect_from:
 ---
 我当前的研究兴趣是OBD排放数据评估和数据驱动的机动车排放与能耗建模。  
 <br/>
-目前，我于<a href=https://env.nankai.edu.cn>南开大学环境科学与工程学院</a>攻读硕士学位，自2023年秋季起师从<a href=https://env.nankai.edu.cn/2019/0612/c14180a177249/page.htm>毛洪钧</a>教授。
+目前，我于 <a href=https://env.nankai.edu.cn> 南开大学环境科学与工程学院 </a> 攻读硕士学位，自2023年秋季起师从 <a href=https://env.nankai.edu.cn/2019/0612/c14180a177249/page.htm> 毛洪钧 </a> 教授。
 <br/>
 本科毕业于
