@@ -1,7 +1,13 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "博士期间研究计划"
+excerpt: ""
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+
+![研究计划_00](https://github.com/user-attachments/assets/baebb1dc-d3ec-4231-a117-7dcd4f09ec90)
+![研究计划_01](https://github.com/user-attachments/assets/d4b150a5-8ba8-408d-8fbb-d64ddecc67ff)
+![研究计划_02](https://github.com/user-attachments/assets/c8509eb6-2e6d-4d2d-bee2-91ed00761c05)
+![研究计划_03](https://github.com/user-attachments/assets/1a64ea29-a9a8-43d2-a128-443d2fb36e10)
+
+
