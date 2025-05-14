@@ -6,6 +6,7 @@ permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: 'This article presents a data-driven method for imputing missing OBD data, aiming to reconstruct the real-world emission profiles of HDDVs.'
 venue: 'Journal of Hazard Materials'
 date: 2025-04-26
+citation: 'Cao, Z. et al. Reconstructing missing NOx emissions in heavy-duty diesel vehicle OBD data: A machine learning approach. Journal of Hazardous Materials 494, 138619, doi:https://doi.org/10.1016/j.jhazmat.2025.138619 (2025).'
 paperurl: 'https://github.com/Starbutterflies/zeping.github.io/raw/refs/heads/master/files/Reconstructing%20Missing%20NOx%20Emissions%20in%201.pdf'
 ---
 
