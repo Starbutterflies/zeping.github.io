@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-10-01-paper-title-number-1
 excerpt: 'This study develops a scalable, data-driven framework that leverages OBD remote transmission data to identify urea depletion and consumption patterns in HDDVs, enabling the detection of potential tampering and providing policymakers with a cost-effective tool for targeted emission control.'
 date: 2025-08-25
-paperurl: 'https://github.com/Starbutterflies/zeping.github.io/raw/refs/heads/master/files/Manuscript.pdf'
+paperurl: 'https://github.com/Starbutterflies/zeping.github.io/raw/refs/heads/master/files/Identify%20emission-abnormal%20heavy-duty%20diesel%20vehicles%20via%20on-board%20diagnostic%20urea%20analysis.pdf'
 venue: 'Transportation Research Part D (under review)'
 
 ---
